@@ -6,7 +6,13 @@
   </view>
 </view>
 <view class="scrollview_father">
-  <scroll-view class="" scroll-y>
-    <company_item></company_item>
+  <scroll-view class="scrollview" scroll-y>
+    <view class="scrollview_view" hover-class="none" hover-stop-propagation="false">
+      <company_item></company_item>
+      <company_item></company_item>
+      <company_item></company_item>
+      <company_item></company_item>
+      <company_item></company_item>
+    </view>
   </scroll-view>
 </view>

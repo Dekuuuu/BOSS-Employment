@@ -3,8 +3,66 @@ page{
 }
 
 .company_item {
+  display: flex;
+  justify-content: space-between;
   width: 100%;
-  height: 314rpx;
-  background-color: yellow;
+  height: 314rpx; 
+  padding: 40rpx 40rpx 0 40rpx; 
+  background-color: #fff;
+  margin-bottom: 14rpx;
 }
 
+.company_item_left {
+  width: 90rpx;
+  margin-right: 34rpx;
+  height: 100%;
+}
+
+.company_item_left_logo {
+  width: 90rpx;
+  height: 90rpx;
+  background-color: #37c2bc;
+  border-radius: 5rpx;
+}
+
+.company_item_right {
+  background-color: #fff;
+  flex-grow: 1;
+}
+
+.company_item_right_name {
+  font-size: 34rpx;
+  margin-bottom: 26rpx;
+}
+
+.company_item_right_adress {
+  font-size: 26rpx;
+  color: #6c6c6c;
+  margin-bottom: 30rpx;
+}
+
+.company_item_right_info {
+  display: flex;
+  font-size: 20rpx;
+  color: #666666;
+}
+
+.company_item_right_info text {
+  margin-right: 12rpx;
+  background-color: #f8f8f8;
+}
+
+.company_item_right_post {
+  display: flex;
+  align-items: center;
+  font-size: 24rpx;
+  padding: 34rpx 0;
+  width: 100%;
+  border-top: 1px solid #ebebeb;
+  margin-top: 18rpx;
+}
+
+.company_item_right_post_keyword {
+  color: #37c2bc;
+  line-height: 0;
+}

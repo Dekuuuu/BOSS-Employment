@@ -20,3 +20,15 @@
   width: 40rpx;
   height: 40rpx;
 }
+
+.scrollview_father {
+  height: 100%;
+  width: 100%;
+}
+
+.scrollview {
+  background-color: #fff;
+}
+.scrollview_view {
+  background-color: #f8f8f8;
+}
