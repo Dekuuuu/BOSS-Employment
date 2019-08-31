@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "job_item": "/Components/job_item/job_item"
+  }
+}

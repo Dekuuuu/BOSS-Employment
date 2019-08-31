@@ -1,0 +1,12 @@
+<view class="title_view">
+  <view class="title_left">公司</view>
+  <view class="title_right">
+    <image class="icon icon_search" src="/images/icon/search.png"></image>
+    <image class="icon icon_add" src="/images/icon/screen.png"></image>
+  </view>
+</view>
+<view class="scrollview_father">
+  <scroll-view class="" scroll-y>
+    <company_item></company_item>
+  </scroll-view>
+</view>

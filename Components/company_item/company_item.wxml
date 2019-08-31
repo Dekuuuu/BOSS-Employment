@@ -1,0 +1,24 @@
+<view class="company_item" hover-class="none" hover-stop-propagation="false">
+  <view class="company_item_left">
+    <image class="company_item_left_logo" src=""></image>
+    <view class="company_item_right" hover-class="none" hover-stop-propagation="false">
+      <view class="company_item_right_name" hover-class="none" hover-stop-propagation="false">
+        凡岛网络
+      </view>
+      <view class="company_item_right_adress" hover-class="none" hover-stop-propagation="false">
+        广州市 黄埔区 科学城
+      </view>
+      <view class="company_item_right_info" hover-class="none" hover-stop-propagation="false">
+        <text>不需要融资</text>
+        <text>1000-9999人</text>
+        <text>电子商务</text>
+      </view>
+      <view class="company_item_right_post" hover-class="none" hover-stop-propagation="false">
+        <text class="company_item_right_post_name" selectable="false" space="false" decode="false">
+          web前端开发
+        </text>
+        等935个职位
+      </view>
+    </view>
+  </view>
+</view>

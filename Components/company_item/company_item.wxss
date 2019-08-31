@@ -1,0 +1,10 @@
+page{
+  background-color: #f8f8f8;
+}
+
+.company_item {
+  width: 100%;
+  height: 314rpx;
+  background-color: yellow;
+}
+

@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/company/company",
+    "pages/index/index"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#37c2bc",
+    "navigationBarTitleText": "BOSS直聘",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "i-icon": "../../dist/icon/index"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#36c2bb",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "职位",
+        "iconPath": "images/icon/position.png",
+        "selectedIconPath": "images/icon/position_checked.png"
+      },
+      {
+        "pagePath": "pages/company/company",
+        "text": "公司",
+        "iconPath": "images/icon/company.png",
+        "selectedIconPath": "images/icon/company_checked.png"
+      },
+      {
+        "pagePath": "pages/company/company",
+        "text": "消息",
+        "iconPath": "images/icon/msg.png",
+        "selectedIconPath": "images/icon/msg_checked.png"
+      },
+      {
+        "pagePath": "pages/company/company",
+        "text": "我的",
+        "iconPath": "images/icon/person.png",
+        "selectedIconPath": "images/icon/person_checked.png"
+      }
+    ]
+  }
+}

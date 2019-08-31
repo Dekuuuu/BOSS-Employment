@@ -1,0 +1,19 @@
+<view class="job_item" hover-class="none" hover-stop-propagation="false">
+  <view class="job_item_title" hover-class="none" hover-stop-propagation="false">
+    <text class="job_item_title_post">前端开发</text>
+    <text class="pay job_item_title_pay">8 - 12k</text>    
+  </view>
+  <view class="job_item_company" hover-class="none" hover-stop-propagation="false">
+    <text>十牛科技</text>
+    <text>不需要融资</text>
+  </view>
+  <view class="job_item_label" hover-class="none" hover-stop-propagation="false">
+    <text>广州 番禺 东环</text>
+    <text>经验不限</text>
+    <text>本科</text>
+  </view>
+  <view class="job_item_employer" hover-class="none" hover-stop-propagation="false">
+    <image class="job_item_employer_avatar" src="/images/icon/avatar.png"></image>
+    <text class="job_item_employer_name">马云 · 招聘经理</text>
+  </view>
+</view>

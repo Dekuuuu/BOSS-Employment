@@ -1,0 +1,81 @@
+page {
+  background-color: #fff;
+}
+
+.title_view {
+  display: flex;
+  box-sizing: border-box;
+  padding: 36rpx 40rpx;
+  justify-content: space-between;
+  width: 100%;
+  background: #37c2bc;
+  font-size: 44rpx;
+  color: #fff;
+}
+
+.title_right {
+  width: 140rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  width: 44rpx;
+  height: 44rpx;
+}
+
+.container {
+  padding: 0 36rpx;
+  background: #fff;
+}
+
+.search_for {
+  font-size: 26rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid #ebebeb;
+}
+
+.search_for_left {
+  display: flex;
+  justify-content: space-between;
+  width: 152rpx;
+}
+
+.search_for_right {
+  display: flex;
+  justify-content: space-between;
+  width: 236rpx;
+  color: #666666;
+}
+
+.search_for_right view {
+  padding: 22rpx;
+  background: #f8f8f8;
+  border-radius: 10rpx;
+}
+
+.search_for_left_index {
+  color: #666666;
+}
+
+.job_item_scrollview_father {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.job_item_scrollview {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+.job_item_scrollview_view {
+  background-color: #f8f8f8;
+}

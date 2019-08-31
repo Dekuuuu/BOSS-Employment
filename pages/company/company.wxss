@@ -1,0 +1,22 @@
+.title_view {
+  display: flex;
+  box-sizing: border-box;
+  padding: 36rpx 40rpx;
+  justify-content: space-between;
+  width: 100%;
+  background: #37c2bc;
+  font-size: 50rpx;
+  color: #fff;
+}
+
+.title_right {
+  width: 130rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  width: 40rpx;
+  height: 40rpx;
+}

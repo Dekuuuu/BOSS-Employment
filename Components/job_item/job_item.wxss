@@ -1,0 +1,59 @@
+.job_item {
+  width: 100%;
+  height: 316rpx;
+  background: #fff;
+  padding: 44rpx 40rpx 40rpx 40rpx;
+  margin-bottom: 14rpx;
+  box-sizing: border-box;
+}
+
+.job_item_title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.job_item view {
+  margin-bottom: 28rpx;
+}
+
+.job_item_title_post {
+  font-size: 32rpx;
+}
+
+.job_item_title_pay {
+  font-size: 24rpx;
+  color: #12ada9;
+}
+
+.job_item_company text{
+  font-size: 26rpx;
+  color: #666666;
+  font-weight: 400;
+  margin-right: 24rpx;
+}
+
+.job_item_label {
+  font-size: 24rpx;
+  color: #666666;
+}
+
+.job_item_label text {
+  margin-right: 12rpx;
+  padding: 12rpx 16rpx;
+  background-color: #f8f8f8;
+  border-radius: 5rpx;
+}
+
+.job_item_employer {
+  display: flex;
+  align-items: center;
+  font-size: 22rpx;
+  color: #333333;
+}
+.job_item_employer_avatar {
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 25rpx;
+  background-color: #f8f8f8;
+  margin-right: 20rpx;
+}

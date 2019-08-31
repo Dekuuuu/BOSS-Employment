@@ -1,0 +1,42 @@
+<view class="title_view">
+  <view class="title_left">web前端</view>
+  <view class="title_right">
+    <image class="icon icon_add" src="/images/icon/add.png"></image>
+    <image class="icon icon_line" src="/images/icon/line.png"></image>
+    <image class="icon icon_search" src="/images/icon/search.png"></image>
+  </view>
+</view>
+<view class="container">
+  <view class="search_for">
+    <view class="search_for_left" hover-class="none" hover-stop-propagation="false">
+      <text>推荐</text>
+      <text class="search_for_left_index">最新</text>
+    </view>
+    <view class="search_for_right" hover-class="none" hover-stop-propagation="false">
+      <view class="search_for_right_area" hover-class="none" hover-stop-propagation="false">
+        广州
+      </view>
+      <view class="search_for_right_screen" hover-class="none" hover-stop-propagation="false">
+        筛选
+      </view>
+    </view>
+  </view>
+</view>
+<view class="job_item_scrollview_father" hover-class="none" hover-stop-propagation="false">
+  <scroll-view class="job_item_scrollview" scroll-y="true" enable-flex="true">
+  <view class="job_item_scrollview_view" hover-class="none" hover-stop-propagation="false">
+    <job_item></job_item>
+    <job_item></job_item>
+    <job_item></job_item>
+    <job_item></job_item>
+    <job_item></job_item>
+    <job_item></job_item>
+  </view>
+  </scroll-view>
+</view>
+<i-tab-bar current="homepage" bindchange="handleChange" fixed>
+    <i-tab-bar-item key="homepage" icon="homepage" current-icon="homepage_fill" title="职位"></i-tab-bar-item>
+    <i-tab-bar-item key="group" icon="group" current-icon="group_fill" title="公司"></i-tab-bar-item>
+    <i-tab-bar-item key="remind" icon="remind" current-icon="remind_fill" count="" title="消息"></i-tab-bar-item>
+    <i-tab-bar-item key="mine" icon="mine" current-icon="mine_fill" dot="false" title="我的"></i-tab-bar-item>
+</i-tab-bar>
