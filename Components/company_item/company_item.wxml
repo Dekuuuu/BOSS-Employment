@@ -14,12 +14,13 @@
       <text>1000-9999人</text>
       <text>电子商务</text>
     </view>
-    <view class="company_item_right_post" hover-class="none" hover-stop-propagation="false">
+    <view class="company_item_right_post_left" hover-class="none" hover-stop-propagation="false">
       热招： 
-      <text class="company_item_right_post_keyword" selectable="false" space="false" decode="false">
-        web前端开发
-      </text>
+      <text class="company_item_right_post_keyword">web前端开发</text>
       等935个职位
+    </view>
+    <view class="company_item_right_post_right" hover-class="none" hover-stop-propagation="false">
+      
     </view>
   </view>
 </view>

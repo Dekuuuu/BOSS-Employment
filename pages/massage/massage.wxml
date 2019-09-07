@@ -1,0 +1,28 @@
+<view class="title">
+  <view class="title_left">
+    <text class="title_left_key">聊天</text>
+    <text class="">互动</text>
+  </view>
+  <view class="title_right">
+    <image class="title_right_msg_icon" src="/images/icon/msg_icon.png"></image>
+  </view>
+</view>
+
+<view class="search">
+  通过姓名或公司搜索联系人
+</view>
+
+<view class="msg_title">
+  <text class="msg_title_text">联系人</text>
+  <text class="msg_title_btn">急速处理</text>
+</view>
+
+<view class="scroll_view_father">
+  <massage_item></massage_item>
+  <massage_item></massage_item>
+  <massage_item></massage_item>
+  <massage_item></massage_item>
+  <massage_item></massage_item>
+  <massage_item></massage_item>
+  <massage_item></massage_item>
+</view>

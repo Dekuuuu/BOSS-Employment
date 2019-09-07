@@ -1,0 +1,16 @@
+<view class="massage_item" hover-class="none" hover-stop-propagation="false">
+  <view class="massage_item_left" hover-class="none" hover-stop-propagation="false">
+    <image class="massage_item_left_avatar" src="/images/company_logo.png"></image>
+  </view>
+  <view class="massage_item_right" hover-class="none" hover-stop-propagation="false">
+    <view class="massage_item_right_top">
+      <text class="massage_item_right_top_name">于先生</text>
+      <text class="massage_item_right_top_info">约客网络科技·品牌总监</text>
+      <text class="massage_item_right_top_date">8月31日</text>
+    </view>
+    <view class="massage_item_right_date" hover-class="none" hover-stop-propagation="false">
+      <text class="massage_item_right_bottom">对不起，我们只招聘有工作经验的人才，你没有工作经验，不管怎样都是不能</text>
+    </view>
+    
+  </view>
+</view>

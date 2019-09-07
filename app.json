@@ -1,8 +1,8 @@
 {
   "pages": [
+    "pages/massage/massage",
     "pages/company/company",
     "pages/index/index"
-    
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -31,7 +31,7 @@
         "selectedIconPath": "images/icon/company_checked.png"
       },
       {
-        "pagePath": "pages/company/company",
+        "pagePath": "pages/massage/massage",
         "text": "消息",
         "iconPath": "images/icon/msg.png",
         "selectedIconPath": "images/icon/msg_checked.png"

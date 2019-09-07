@@ -1,0 +1,60 @@
+.massage_item {
+  display: flex;
+  justify-content: space-between;
+  padding: 52rpx 40rpx;
+  font-size: 24rpx;
+  color: #b0b0b0;
+}
+
+.massage_item_left {
+  margin-right: 28rpx;
+}
+.massage_item_left_avatar {
+  width: 106rpx;
+  height: 106rpx;
+  border-radius: 53rpx;
+}
+
+.massage_item_right {
+  width: 100%;
+  flex-grow: 1;
+  /* background-color: red; */
+}
+.massage_item_right_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+
+.massage_item_right_top_name {
+  font-size: 32rpx;
+  color: black;
+  margin-right: 16rpx;
+  background-color: #fff;
+}
+.massage_item_right_top_info {
+  font-weight: 300;
+  flex-grow: 1;
+  /* background-color: #fff; */
+}
+
+.massage_item_right_bottom {
+  width: 448rpx;
+  display: block;
+  color: #6a6a6a;
+  font-weight: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.massage_item_right {
+  font-weight: 300;
+  font-size: 24rpx;
+}
+
+.massage_item_right_date {
+  display: flex;
+  justify-content: space-between;
+}

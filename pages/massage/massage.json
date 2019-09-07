@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "massage_item": "/Components/massage_item/massage_item"
+  }
+}
