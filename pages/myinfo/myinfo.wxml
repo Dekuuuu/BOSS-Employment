@@ -1,0 +1,72 @@
+<view class="myinfo_title_btn" hover-class="none" hover-stop-propagation="false">
+  <image class="myinfo_title_btn_icon" src="/images/icon/screen_icon.png"></image>
+  <image class="myinfo_title_btn_icon" src="/images/icon/set_icon.png"></image>
+</view>
+<view class="scroll_view_box" hover-class="none" hover-stop-propagation="false">
+  <scroll-view class="scroll_view" scroll-x="false" scroll-y="true">
+    <view class="myinfo_title" hover-class="none" hover-stop-propagation="false">
+      <view class="myinfo_title_user_box" hover-class="none" hover-stop-propagation="false">
+        <view class="myinfo_title_user_info" hover-class="none" hover-stop-propagation="false">
+          <text class="myinfo_title_user_name">周杰伦</text>
+          <text class="myinfo_title_user_resume">我的在线简历</text>
+        </view>
+        <view class="myinfo_title_user_avatar" hover-class="none" hover-stop-propagation="false">
+          <image class="myinfo_title_user_avatar_icon" src="/images/icon/avatar.png"></image>
+        </view>
+      </view>
+      <view class="myinfo_title_bottom" hover-class="none" hover-stop-propagation="false">
+        <view class="myinfo_title_bottom_box">
+          <text class="myinfo_title_bottom_number">216</text>
+          <text class="myinfo_title_bottom_word">沟通过</text>
+        </view>
+        <view class="myinfo_title_bottom_box">
+          <text class="myinfo_title_bottom_number">0</text>
+          <text class="myinfo_title_bottom_word">待面试</text>
+        </view>
+        <view class="myinfo_title_bottom_box">
+          <text class="myinfo_title_bottom_number">50</text>
+          <text class="myinfo_title_bottom_word">已投简历</text>
+        </view>
+        <view class="myinfo_title_bottom_box">
+          <text class="myinfo_title_bottom_number">7</text>
+          <text class="myinfo_title_bottom_word">收藏</text>
+        </view>
+      </view>
+    </view>
+    <view class="myinfo_content">
+      <view class="myinfo_content_assistant" hover-class="none" hover-stop-propagation="false">
+        <text class="myinfo_content_assistant_title">求职助手</text>
+        <text class="myinfo_content_assistant_other">其他/钱包</text>
+      </view>
+      <scroll-view class="myinfo_content_card_box" scroll-x="true">
+        <view class="myinfo_content_card" hover-class="none" hover-stop-propagation="false">
+          <view class="myinfo_content_card_left">
+            <text class="myinfo_content_card_left_top">简历刷新</text>
+            <text class="myinfo_content_card_left_bottom">提升简历活跃</text>
+          </view>
+          <view class="myinfo_content_card_right">
+            <image class="myinfo_content_card_right_image" src="/images/icon/resume.png"></image>
+          </view>
+        </view>
+        <view class="myinfo_content_card" hover-class="none" hover-stop-propagation="false">
+          <view class="myinfo_content_card_left">
+            <text class="myinfo_content_card_left_top">竞争力分析</text>
+            <text class="myinfo_content_card_left_bottom">洞悉职业竞争</text>
+          </view>
+          <view class="myinfo_content_card_right">
+            <image class="myinfo_content_card_right_image" src="/images/icon/doc.png"></image>
+          </view>
+        </view>
+        <view class="myinfo_content_card" hover-class="none" hover-stop-propagation="false">
+          <view class="myinfo_content_card_left">
+            <text class="myinfo_content_card_left_top">职业测试</text>
+            <text class="myinfo_content_card_left_bottom">分析职业竞争力</text>
+          </view>
+          <view class="myinfo_content_card_right">
+            <image class="myinfo_content_card_right_image" src="/images/icon/three.png"></image>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+  </scroll-view>
+</view>

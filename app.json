@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/myinfo/myinfo",
     "pages/massage/massage",
     "pages/company/company",
     "pages/index/index"
@@ -12,7 +13,8 @@
   },
   "sitemapLocation": "sitemap.json",
   "usingComponents": {
-    "i-icon": "../../dist/icon/index"
+    "i-icon": "../../dist/icon/index",
+    "i-card": "../../dist/card/index"
   },
   "tabBar": {
     "color": "#666666",
@@ -37,7 +39,7 @@
         "selectedIconPath": "images/icon/msg_checked.png"
       },
       {
-        "pagePath": "pages/company/company",
+        "pagePath": "pages/myinfo/myinfo",
         "text": "我的",
         "iconPath": "images/icon/person.png",
         "selectedIconPath": "images/icon/person_checked.png"
