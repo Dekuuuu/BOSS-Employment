@@ -3,7 +3,7 @@
   <image class="myinfo_title_btn_icon" src="/images/icon/set_icon.png"></image>
 </view>
 <view class="scroll_view_box" hover-class="none" hover-stop-propagation="false">
-  <scroll-view class="scroll_view" scroll-x="false" scroll-y="true">
+  <scroll-view class="scroll_view" scroll-y="true">
     <view class="myinfo_title" hover-class="none" hover-stop-propagation="false">
       <view class="myinfo_title_user_box" hover-class="none" hover-stop-propagation="false">
         <view class="myinfo_title_user_info" hover-class="none" hover-stop-propagation="false">
@@ -11,7 +11,7 @@
           <text class="myinfo_title_user_resume">我的在线简历</text>
         </view>
         <view class="myinfo_title_user_avatar" hover-class="none" hover-stop-propagation="false">
-          <image class="myinfo_title_user_avatar_icon" src="/images/icon/avatar.png"></image>
+          <image class="myinfo_title_user_avatar_icon" src="/images/user_avatar.jpg"></image>
         </view>
       </view>
       <view class="myinfo_title_bottom" hover-class="none" hover-stop-propagation="false">
@@ -67,6 +67,36 @@
           </view>
         </view>
       </scroll-view>
+      <view class="myinfo_content_list_box" hover-class="none" hover-stop-propagation="false">
+        <view class="myinfo_content_list">
+          <text class="myinfo_content_list_left">附件简历</text>
+          <text class="myinfo_content_list_right">已上传1份</text>
+        </view>
+        <view class="myinfo_content_list myinfo_content_list_bottom">
+          <text class="myinfo_content_list_left myinfo_content_list_left_two">管理求职意向</text>
+          <text class="myinfo_content_list_right">离职-随时到岗</text>
+        </view>
+        <view class="myinfo_content_list">
+          <text class="myinfo_content_list_left myinfo_content_list_left_three">个人主页</text>
+          <text class="myinfo_content_list_right"></text>
+        </view>
+        <view class="myinfo_content_list">
+          <text class="myinfo_content_list_left myinfo_content_list_left_four">牛人问答</text>
+          <text class="myinfo_content_list_right"></text>
+        </view>
+        <view class="myinfo_content_list">
+          <text class="myinfo_content_list_left myinfo_content_list_left_five">关注公司</text>
+          <text class="myinfo_content_list_right"></text>
+        </view>
+        <view class="myinfo_content_list">
+          <text class="myinfo_content_list_left myinfo_content_list_left_six">提升简历曝光</text>
+          <text class="myinfo_content_list_right"></text>
+        </view>
+        <view class="myinfo_content_list">
+          <text class="myinfo_content_list_left myinfo_content_list_left_seven">帮助与反馈</text>
+          <text class="myinfo_content_list_right"></text>
+        </view>
+      </view>
     </view>
   </scroll-view>
 </view>
